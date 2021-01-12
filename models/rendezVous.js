@@ -5,6 +5,7 @@ const rendezVousSchema = mongoose.Schema({
   IdVolo:String, 
   IdAnimal:String,
   Date:String,
+  name : String,
   valide:Boolean
 });
 
