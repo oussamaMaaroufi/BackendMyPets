@@ -76,7 +76,7 @@ require('./config/passport')(passport);
 //Index Rotuer
 app.get('/', (req, res, next) => {
   res.send('I am alive')
-  console.log('I am alive')
+  console.log('I am alive Deployed')
 });
 
 
